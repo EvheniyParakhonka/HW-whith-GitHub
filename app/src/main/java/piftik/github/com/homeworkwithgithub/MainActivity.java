@@ -10,7 +10,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //        comment in master branch
-//        comment in branch 1
         someMethod();
     }
     private void someMethod(){
