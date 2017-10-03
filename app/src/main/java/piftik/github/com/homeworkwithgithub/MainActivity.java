@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         someMethod();
     }
     private void someMethod(){
-
+//        this method not working
     }
 }
