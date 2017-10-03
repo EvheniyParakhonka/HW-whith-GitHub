@@ -1,0 +1,3 @@
+[submodule "experiments-with-github"]
+	path = experiments-with-github
+	url = https://github.com/piftik/experiments-with-github.git
