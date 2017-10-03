@@ -2,17 +2,16 @@ package piftik.github.com.homeworkwithgithub;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
+
+    public static final String TAG = MainActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        comment in master branch
-        someMethod();
-    }
-    private void someMethod(){
-//        this method not working
+        Log.d(TAG, "some text");
     }
 }
